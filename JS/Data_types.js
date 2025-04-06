@@ -36,3 +36,25 @@
 
 // console.log("2" == 2);          true
 // console.log("2" === 2);         false 
+
+// Primitive data types are of 7 types: string, number, boolean, null, undefined, symbol, big int.
+// Reference type (non-primitive) : arrays, objects, functions
+
+// Symbols:
+const id = Symbol("123")
+const anotherId= Symbol("123")
+console.log(id == anotherId);
+const bigNumber = 12324468764343n
+
+const heros =["naruto","sasuke","kakashi"]
+
+
+let mydetails = {
+    name: "Mallikarjuna",
+    age: 18,
+}
+
+function myfunction (hi) {
+    console.log("Hello World") ;
+    
+}
