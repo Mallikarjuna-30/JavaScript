@@ -30,4 +30,32 @@ function loginUserMessage(username){
     }
 
 }
-console.log(loginUserMessage());
+// console.log(loginUserMessage());
+
+function calculateCartPrice (...n1) {                                         //... is rest operator
+    return n1
+}
+// console.log(calculateCartPrice(100,200,300));
+
+const user = {
+    username : "Mallu",
+    price : 200,
+}
+function handleObjrct (anyObject){
+    console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`);
+}
+// handleObjrct(user)
+
+// handleObjrct({
+    // username:"Sam",
+    // price :300,
+// });
+
+const myNewArray = [100,200,300,400]
+function returnSecValue(getArray){
+    return getArray[1]
+    
+}
+// console.log(returnSecValue(myNewArray));
+// console.log(returnSecValue([28213,23193190,32133,32312]));
+
