@@ -74,4 +74,97 @@ if (UserLoggedIn && debitCard){
 // console.log(val);
 
 const IceTea = 100
-IceTea <= 80 ?console.log("yes"):console.log("no");
+// IceTea <= 80 ?console.log("yes"):console.log("no");
+
+
+
+// for of loop
+// ["","",""]
+// [{},{},{}]
+
+const arr = [1,2,3,4,5]
+for (const i of arr) {
+    //console.log(i)                  //1   2   3   4   5
+}
+
+const greetings ="hello world"
+for (const greet of greetings) {
+    // console.log(`Each char id ${greet}`);
+    
+}
+
+// Maps
+
+const map = new Map()
+map.set('IN',"India")
+map.set('Fr',"France")
+map.set('Us',"America")
+
+// console.log(map);
+for (const [key , value] of map) {
+    // console.log(key,':-',value);
+    
+}
+
+
+// const game ={
+//     "game1":"FH5",
+//     "game2":"GTA5"
+// }
+// for (const i of game) {
+//     // console.log(i);
+    
+// }
+
+const myObject = {
+    js:"Javascript",
+    cpp:"C++",
+    RB:"Ruby"
+}
+for (const key in myObject) {
+    // console.log(`${key} shortcut = ${myObject[key]}`);
+    
+}
+
+
+const programming = ["js","cpp","python"]
+for (const key in programming) {
+    // console.log(programming[key])
+}
+
+const coding= ["js","c++","python","ruby"]
+// coding.forEach( function (item) {
+//     console.log(item);
+    
+// } )
+
+// coding.forEach( (val) =>{
+//     console.log(val);
+    
+// } )
+// printMe = (item) =>{
+//     console.log(item);
+    
+// }
+// coding.forEach(printMe)
+
+const myCoding = [
+    {
+        lanuage : "js",
+        lanuageFile : "JAvaScript"
+    },
+    {
+        lanuage : "c++",
+        lanuageFile : "C++File"
+    },
+    {
+        lanuage : "Python",
+        lanuageFile : "PythonFile"
+    }
+]
+
+myCoding.forEach( (item) => {
+    console.log(item.lanuage);
+    console.log(item.lanuageFile);
+    
+} )
