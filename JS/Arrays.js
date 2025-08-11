@@ -7,18 +7,18 @@ const myArr=[2334,1,2,3,4,5,true,"mallu"]
 
 
 // Array Methods
-// myArr.push(6)
-// myArr.pop()
-//  myArr.unshift(1)
-//  myArr.shift()
-//  console.log(myArr.pop());
+// myArr.push(6)        Adds 6 at end
+// myArr.pop()          Removes last element
+//  myArr.unshift(1)      Adds 1 at starting 
+//  myArr.shift()          Removes 1st element
+//  console.log(myArr.pop());   
  
 // console.log(myArr.indexOf(5));
-const newArr=myArr.join()
+const newArr=myArr.join()            //changes type to sting
 // console.log(newArr);
 
-// console.log("A",myArr);
-const myN1=myArr.slice(1,3)
+// console.log("A",myArr);     
+const myN1=myArr.slice(1,3)       //prints values bwt 1 and and 3 excluding 3
 // console.log(myN1);
 
 const marvelHeros = ["Thor","ironman","spidey"]
