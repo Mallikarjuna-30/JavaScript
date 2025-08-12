@@ -42,10 +42,10 @@ for(i=0;i<10;i++){
     console.log(`value is ${i}`);
     
 }
-for(i=0;i<10;i++){
-    if(i==5){
-        continue
-    }
-    console.log(`value is ${i}`);
+// for(i=0;i<10;i++){
+//     if(i==5){
+//         continue
+//     }
+//     console.log(`value is ${i}`);
     
-}
+// }

@@ -32,11 +32,19 @@ function loginUserMessage(username){
 }
 // console.log(loginUserMessage());
 
-function calculateCartPrice (...n1) {                                         //... is rest operator
-    return n1
-}
-// console.log(calculateCartPrice(100,200,300));
-
+// const Cart= function calculateCartPrice (...n1) {                                         //... is rest operator
+//     return n1
+// }
+// console.log(100,200,300);
+// const n = Array.length(Cart)
+// console.log(n)
+// const total = function Price(){
+//     for (i=0 ; i<n ; i++){
+//         sum += a[i];
+//         return sum
+//     }
+// }
+// console.log(Price())
 const user = {
     username : "Mallu",
     price : 200,
