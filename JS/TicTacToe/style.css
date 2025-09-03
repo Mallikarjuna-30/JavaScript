@@ -33,10 +33,31 @@ body{
 }
 .reset{
     padding: 1rem;
-    width:15vmin;
-    height:10vmin;
+    /* width:15vmin; */
+    /* height:10vmin; */
     font-size:1.2rem;
     background-color: #00d3fd;
     color:white;
-    border-radius:10px;
+    border-radius:1rem;
+}
+.new-btn{
+    padding: 1rem;
+    /* width:15vmin; */
+    /* height:10vmin; */
+    font-size:1.2rem;
+    background-color: #00d3fd;
+    color:white;
+    border-radius:1rem;
+}
+
+#msg{
+    color: #ffffc7;
+    font-size: 5vmin;
+}
+.msg-container{
+    padding: 10px;
+    height: 30vmin;
+}
+.hide{
+    display: none;
 }
