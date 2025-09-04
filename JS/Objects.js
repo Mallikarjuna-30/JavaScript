@@ -97,3 +97,30 @@ const {courseInstructor : instructor} =course    //object destructor
 //     "coursename":"webDevelopment",               }  API 
 //     "price":"free"                               }
 // }
+
+
+const student={
+    fullName:"Mallikarjuna",
+    marks:9.70,
+    printmarks:()=>{
+        console.log("Marks = ",this.marks);
+        
+    }
+}
+
+const employee={
+    calcTax : ()=>{
+        console.log("Tax is 10%");
+        
+    }
+};
+
+const karan={
+    salary:100000,
+    calcTax:()=>{
+        console.log("Tax is 20%");
+        
+    }
+};
+
+karan.__proto__ = employee;
