@@ -1,0 +1,21 @@
+.btn{
+    width:100px;
+    height: 30px;;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+.imgg{
+    display:none;
+    width:200px;
+    height: 100px;
+}
+
+.loading{
+    display: none;
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+    font-style: italic;
+}
