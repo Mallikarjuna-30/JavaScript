@@ -17,6 +17,8 @@ body{
     border-radius: 1rem;
     min-height: 45vh;
     width: 40vh;
+    box-shadow: 4px 4px 11px rgba(0, 0, 0, 0.5);
+
 }
 
 h2{
@@ -83,4 +85,10 @@ form button{
     color: white;
     border-radius: 0.5rem;
     cursor: pointer;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+form input:hover,button:hover{
+    transform: scale(1.05);
 }
